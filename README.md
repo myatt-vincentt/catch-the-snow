@@ -16,6 +16,7 @@ a ghost face by your shoulder opens its mouth to show the move.
 - The pieces are vincentt.studio head accessories on the SDK's canonical head fit, steadied by a
   speed-adaptive spring with the head occluder in the same group. The snow and the snowdrift are
   drawn straight in screen space; the far flakes hide behind you using the portrait mask.
+- Thumbnail: `public/images/catch-the-snow-thumbnail.jpg` (the share image).
 - Models: `public/models/vincentt-*.glb` (`src/snow/outfit.ts`); the hint face is
   `face-v1.glb`. Credits in `CREDITS.md`.
 - Dev preview without a camera: the media switcher starts on `dev-media/snow.mp4` if you add one,

@@ -1,10 +1,10 @@
 {
   "title": "Catch the Snow",
   "description": "Snow falls in your room. Open your mouth to catch the snowflakes and your cheeks fill up round and rosy, then slowly melt back. Santa hat and reindeer nose on. Right in your browser.",
-  "image": "/images/og-default.jpg",
+  "image": "/images/catch-the-snow-thumbnail.jpg",
   "imageAlt": "Catch the Snow — a camera experience built with Vincentt",
-  "imageWidth": 1200,
-  "imageHeight": 630,
+  "imageWidth": 941,
+  "imageHeight": 1672,
   "imageType": "image/jpeg",
   "url": "https://catch-the-snow.vincentt.app"
 }
