@@ -1,7 +1,7 @@
-// A snowdrift along the bottom of the screen, in front of you: a soft,
-// lumpy bank of snow with blue shade in its hollows, a bright rim along the
-// top and glints twinkling in it. One quad in screen space; the far flakes
-// fall behind it, the near ones in front.
+// A snowdrift along the bottom of the screen, in front of everything (the
+// top layer, over the nose and every flake): a soft, lumpy bank of snow with
+// blue shade in its hollows, a bright rim along the top and glints
+// twinkling in it. One quad in screen space.
 import { useMemo } from "react";
 import { useFrame } from "@react-three/fiber";
 
@@ -81,7 +81,9 @@ export const SnowDrift = () => {
     uniforms.aspect.value = state.size.width / Math.max(1, state.size.height);
   });
   return (
-    <mesh frustumCulled={false} renderOrder={990}>
+    // The top layer: after the nose (998.x), the near snow (999) and the
+    // crystal flakes (1000).
+    <mesh frustumCulled={false} renderOrder={1001}>
       <planeGeometry args={[2, 2]} />
       <shaderMaterial
         uniforms={uniforms}

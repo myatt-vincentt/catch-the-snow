@@ -35,7 +35,7 @@ A gentle Christmas play: catch snowflakes in your mouth until your cheeks are fu
 - `Mouth.tsx`: the middle of the mouth on the filtered head, projected to the screen. `Catch.tsx`:
   the crystal flakes and the sparkles, one draw call in screen space.
 - `Snow.tsx`: two layers of falling flakes in screen space, the far one hidden where the portrait
-  mask is (`personMask.ts`). `SnowDrift.tsx`: the snowdrift, one shader quad.
+  mask is (`personMask.ts`). `SnowDrift.tsx`: the snowdrift, one shader quad, the top layer.
 - `MouthHint.tsx`: the SDK's `FaceExpressionHint` (`face-v1.glb`) by the shoulder, 3 s after the
   face appears and after every 10 s without a catch.
 - Dev only: `DevKeys.tsx` (O mouth open, C / 0 / 9 cheeks, `window.__snow`),
